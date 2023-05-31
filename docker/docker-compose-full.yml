@@ -61,7 +61,7 @@ services:
     depends_on:
       - consul-server
     ports:
-      - "80:80"
+      - "8080:80"
 
   zipkin-storage:
     image: openzipkin/zipkin-cassandra
